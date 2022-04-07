@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>OpenWeatherMap Api</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<center><h1 id = "heading"> Dynamic Weather Application using Javascript </h1></center>
+  
+    <div class="input">
+      <label for = "Country" id ="cn"> Select a Country : </label> 
+      <input type="text" placeholder="Eg: India" class="input_text1" required > <br> <br>
+      <label for = "Country" id ="ci"> Select a City : </label> 
+      <input type="text" placeholder="Eg: New Delhi" class="input_text" required> <br> <br>
+      <input type="submit" value="Submit" class="submit">
+    </div>
+  </div>
+  <center> <h2> The Weather is :  </h2></center>
+  <div class="container">
+    <div class="card">
+      <h1 class="name" id="name"></h1>
+      <p class="temp"></p>
+      <p class="desc"></p>
+   
+    </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
